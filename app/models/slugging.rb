@@ -1,3 +1,4 @@
+# Overrides for the default friendly_id behaviour.
 module Slugging
   def should_generate_new_friendly_id?
     new_record?
