@@ -159,7 +159,7 @@ class Import < ActiveRecord::Base
   end
 
   def number_of_rows_with_errors
-    import_errors.count(:row_number, distinct: true)
+    import_errors.distinct.count(:row_number)
   end
 
   def perform(options = {})
