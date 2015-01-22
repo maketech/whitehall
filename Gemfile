@@ -46,7 +46,7 @@ gem 'rails-observers'
 if ENV['GLOBALIZE_DEV']
   gem 'globalize', path: '../globalize'
 else
-  gem 'globalize', github: 'tekin/globalize'
+  gem 'globalize', github: 'tekin/globalize', ref: 'transalted-model-touch-issue'
 end
 
 if ENV['GOVSPEAK_DEV']

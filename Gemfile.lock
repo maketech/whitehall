@@ -16,6 +16,7 @@ GIT
 GIT
   remote: git://github.com/tekin/globalize.git
   revision: cd480176c812169fbf2ff1b57fefe2589f2ae77b
+  ref: transalted-model-touch-issue
   specs:
     globalize (4.0.3)
       activemodel (>= 4.0.0, < 5)
